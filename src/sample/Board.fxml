@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.Node?>
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <top>
+        <Label text="Welcome to Chess!" alignment="CENTER"/>
+    </top>
+    <center>
+        <GridPane alignment="CENTER" >
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="0" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="1" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="2" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="3" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="4" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="5" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="6" onMouseClicked="#onClick"/>
+
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="0" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="1" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="2" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="3" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="4" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="5" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: black; -fx-border-color: black;"
+                    GridPane.columnIndex="6" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+            <Button prefHeight="60" prefWidth="60"
+                    style="-fx-background-color: white; -fx-border-color: black;"
+                    GridPane.columnIndex="7" GridPane.rowIndex="7" onMouseClicked="#onClick"/>
+
+            <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+         </rowConstraints>
+
+        </GridPane>
+    </center>
+
+</BorderPane>
